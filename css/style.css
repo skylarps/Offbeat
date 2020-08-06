@@ -2,6 +2,12 @@ body {
     background-color: beige;
 }
 
+#header {
+    background-image: url("/img/header-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
 h1 {
     font-family: 'Prata', serif;
 }
@@ -9,5 +15,35 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-
 }
+
+.nav-link {
+    font-family: 'Prata', serif;
+    color: #FFF;
+}
+
+.logo, img {
+   height: 50px;
+}
+
+.navigation-bar {
+    padding: 25px;
+}
+
+.main-statement {
+    margin: 15% 10%;
+}
+
+.main-statement, h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.header-button {
+    margin-top: 50px;
+}
+
+
+
+
