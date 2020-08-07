@@ -95,6 +95,15 @@ h3 {
 
 }
 
+.description-image {
+    float: right;
+    width: 50vw;
+}
+
+.desc-img {
+    height: 15%;
+}
+
 
 
 
