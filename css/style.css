@@ -39,14 +39,17 @@ h3 {
     margin: 35vh 10%;
 }
 
-.main-statement, h1 {
+.main-statement h1  {
     color: #fff;
     text-align: center;
-    font-size: 1.9em;
+    font-size: 4em;
 }
 
 .header-button {
-    margin-top: 50px;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin: 50px 0px;
 }
 
 #section-2 {
@@ -55,6 +58,7 @@ h3 {
     background-position: 50% 50%;
     background-attachment: fixed;
     min-height: 300px;
+    padding: 10% 0;
     
 }
 .wrapper-2 {
@@ -78,14 +82,16 @@ h3 {
     font-size: 2.5em;
     font-weight: 800;
     padding-top: 5.8em;
+    text-align: center;
    
 }
 
 #section-3 {
     background-color: #000;
-    height: 70vh;
+    
     z-index: 10;
     overflow: hidden;
+    padding: 10% 0;
 }
 
 .description-content {
@@ -111,17 +117,43 @@ h3 {
 .description-image {
     float: right;
     width: 45vw;
-    margin-top: 10%;
-    
-    
-    
+    margin: 10% 0%;    
 }
 
 .desc-img {
     height: 40vw;
     box-shadow: -20px 20px 0 #ccc;
+    max-height: 500px;
 }
 
+/* ***STEP 3*** */
+.steps-container {
+    justify-content: center;
+}
+
+.steps {
+    margin: 15% 5%;
+}
+
+.steps h1 {
+    width: 300px;
+    font-size: 5em;
+}
+
+.steps h3 {
+    font-size: 2em;
+}
+
+.devices-image-div {
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+}
+
+.devices-image {
+    height: 75vh;
+}
+  
 
 
 
