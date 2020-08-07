@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: #fff;
 }
 
 #header {
@@ -13,6 +13,11 @@ h1 {
 }
 
 h2 {
+    font-family: 'Prata', sans-serif;
+   
+}
+
+h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -31,7 +36,7 @@ h2 {
 }
 
 .main-statement {
-    margin: 15% 10%;
+    margin: 35vh 10%;
 }
 
 .main-statement, h1 {
@@ -42,6 +47,52 @@ h2 {
 
 .header-button {
     margin-top: 50px;
+}
+
+#section-2 {
+    height: 35%;
+    margin-top: 15%;
+}
+.wrapper-2 {
+    background-image: url("/img/soundwave-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: brightness(140%);
+    height: 50vh;
+}
+
+.main-statement-2 {
+    padding-top: 100px;
+}
+
+.main-statement-2 h1  {
+    color: #000;
+    font-size: 2.5em;
+}
+
+#section-3 {
+    background-color: #000;
+    height: 70vh;
+}
+
+.description-content {
+    padding: 5%;
+    float: left;
+    width: 50vw;
+    margin: 5%;
+   
+}
+
+.discription-title {
+    Padding: 30px 0px;
+    color: #fff;
+    font-size: 3em;
+}
+
+.description-main {
+    color: #fff;
+    font-size: 1.4em;
+
 }
 
 
