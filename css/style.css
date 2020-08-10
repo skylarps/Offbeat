@@ -129,19 +129,23 @@ h3 {
 /* ***STEP 3*** */
 .steps-container {
     justify-content: center;
+    overflow: hidden;
+    padding: 0 10vw;
 }
 
 .steps {
-    margin: 15% 5%;
+    padding: 15% 5%;
 }
 
 .steps h1 {
-    width: 300px;
-    font-size: 5em;
+    width: 100%;
+    font-size: 5vh;
+    text-align: center;
 }
 
 .steps h3 {
-    font-size: 2em;
+    font-size: 1.6em;
+    text-align: center;
 }
 
 .devices-image-div {
@@ -158,7 +162,9 @@ h3 {
 }
 
 /* ***section 5*** */
-
+#section-5 {
+    margin: 100px 0;
+}
 .join-us {
     z-index: 1000;
 }
@@ -182,6 +188,18 @@ h3 {
     object-fit: cover;
     height: 30vh;
     position: absolute;
+}
+
+.footer-1 {
+    margin-left: 15%;
+}
+
+.footer-3 {
+    margin-right: 15%;
+}
+
+#footer {
+    padding: 5% 0;
 }
 
 
