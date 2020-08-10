@@ -156,7 +156,33 @@ h3 {
   height: auto;
   max-height: 1000px;
 }
-  
+
+/* ***section 5*** */
+
+.join-us {
+    z-index: 1000;
+}
+
+.join-us h1 {
+    color: #fff;
+}
+
+.gallery-header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 30vh;
+    max-height: 25vh;
+}
+
+.gallery-header-img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    object-fit: cover;
+    height: 30vh;
+    position: absolute;
+}
 
 
 
