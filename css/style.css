@@ -151,7 +151,10 @@ h3 {
 }
 
 .devices-image {
-    height: 75vh;
+    width: auto;
+  max-width: 1000px;
+  height: auto;
+  max-height: 1000px;
 }
   
 
