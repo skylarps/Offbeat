@@ -131,6 +131,10 @@ h3 {
 }
 
 /* ***STEP 3*** */
+
+#section-4 {
+    z-index: 1000;
+}
 .steps-container {
     justify-content: center;
     overflow: hidden;
@@ -156,6 +160,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin-top: -10%;
+    margin-bottom: 20%;
 }
 
 .devices-image {
@@ -182,15 +187,15 @@ h3 {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    height: 30vh;
+    height: 20vh;
     max-height: 25vh;
 }
 
 .gallery-header-img img {
     flex-shrink: 0;
-    min-width: 100%;
+    width: 100%;
     object-fit: cover;
-    height: 30vh;
+    height: auto;
     position: absolute;
 }
 
