@@ -131,6 +131,10 @@ h3 {
 }
 
 /* ***STEP 3*** */
+
+#section-4 {
+    z-index: 1000;
+}
 .steps-container {
     justify-content: center;
     overflow: hidden;
@@ -156,6 +160,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin-top: -10%;
+    margin-bottom: 20%;
 }
 
 .devices-image {
